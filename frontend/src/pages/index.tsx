@@ -14,6 +14,14 @@ const Home: NextPage = () => {
         <div className="text-white">
           <a>Hi</a>
         </div>
+        <form className="text-white">
+          <input
+            className=" text-gray-700"
+            name="message"
+            id="message"
+            placeholder="message"
+          />
+        </form>
       </main>
     </>
   );
