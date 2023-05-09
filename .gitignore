@@ -1,4 +1,5 @@
 /backend/target
+/target
 # dependencies
 /node_modules
 /.pnp
