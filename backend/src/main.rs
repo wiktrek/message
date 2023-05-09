@@ -1,6 +1,7 @@
 #[macro_use]
 extern crate rocket;
-
+mod api;
+use api::*;
 #[get("/")]
 fn hello() -> &'static str {
     "Hello, world!"
