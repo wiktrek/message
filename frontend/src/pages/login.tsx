@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="text-white">
-          <a>Hi</a>
+          <a>Login</a>
         </div>
         <form className="text-white">
           <input
@@ -20,6 +20,13 @@ const Home: NextPage = () => {
             name="username"
             id="username"
             placeholder="username"
+          />
+          <input
+            className=" text-gray-700"
+            name="password"
+            id="password"
+            type="password"
+            placeholder="password"
           />
         </form>
       </main>
