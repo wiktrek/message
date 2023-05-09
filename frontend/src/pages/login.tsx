@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 const Home: NextPage = () => {
+  // Login
   return (
     <>
       <Head>
