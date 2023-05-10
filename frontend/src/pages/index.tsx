@@ -17,6 +17,7 @@ const Home: NextPage = () => {
         <div className="text-white">
           <a>Hi</a>
         </div>
+
         <form className="text-white">
           <input
             className=" text-gray-700"
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
             id="message"
             placeholder="message"
           />
+          <input type="submit" name="send" />
         </form>
       </main>
     </>
