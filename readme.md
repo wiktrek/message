@@ -1,3 +1,3 @@
 # messaging app
 
-## rust,next.js,typescript,
+## rust,next.js,typescript, rocket, reqwest
