@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className="text-white">
           <a>Hi</a>
         </div>
-        <form className="text-white">
+        <form className="text-white" action="https://localhost:8000/test">
           <input
             className=" text-gray-700"
             name="message"
